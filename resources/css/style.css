@@ -198,5 +198,51 @@ header {
     
   }
 
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
+/* ----------------------------------------------------- */
+/* MEALS SECTION */
+/* ----------------------------------------------------- */
+
+.section-meals {
+    padding: 0;
+}
+
+.meals-showcase {
+    /* Want a non-bulleted list */
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    /* 4 li elements and we want 100% width */
+    width: 25%;
+    overflow: hidden;
+}
+
+.meals-photo {
+    /* 100% of the parent element (li) */
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+}
+
+.meals-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meals-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
 
 
